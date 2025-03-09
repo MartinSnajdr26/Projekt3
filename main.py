@@ -1,14 +1,9 @@
-##úkolem bude vytvořit scraper výsledků voleb z roku 2017, který vytáhne data přímo z webu.
-##skript, který vybere jakýkoliv územní celek z https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4207
-##Z tohoto odkazu chcete vyscrapovat výsledky hlasování pro všechny obce.
-##Pomocí odkazů ve sloupci číslo, např. 529303,pomocí odkazů ve sloupci Výběr okrsku, tedy sloupec se symbolem X.
-##Výsledný soubor budete spouštět pomocí 2 argumentů (ne pomocí funkce input). První argument obsahuje odkaz,
-#který územní celek chcete scrapovat (př. územní celek Usti ), 
-#druhý argument obsahuje jméno výstupního souboru (př. vysledky_usti.csv)
-##Pokud uživatel nezadá oba argumenty (ať už nesprávné pořadí, nebo argument, který neobsahuje správný odkaz), 
-##program jej upozorní a nepokračuje.
-##Výstup bude obsahovat: kód obce,název obce,voliči v seznamu,vydané obálky,platné hlasy,kandidující strany
-## (co sloupec, to počet hlasů pro stranu pro všechny strany).
+"""
+projekt_3.py: třetí projekt do Engeto Online Python Akademie
+
+author: Martin Snajdr
+email: martin.snajdr.japan@gmail.com
+"""
 
 import sys
 import requests
