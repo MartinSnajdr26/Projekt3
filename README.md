@@ -20,7 +20,7 @@ Skript se spouští s dvěma argumenty:
 📄 Název výstupního souboru CSV
 ▶️ Příklad spuštění
 
-python projekt_3.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4207" vysledky.csv
+python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4207" vysledky.csv
 ⚠️ Pokud nejsou zadány oba argumenty nebo je zadán nesprávný odkaz, skript zobrazí chybovou zprávu a ukončí se.
 
 📊 Výstupní formát CSV
